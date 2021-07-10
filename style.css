@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+header {
+    background: linear-gradient(to right, #ff0000a6, blue);
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: system-ui;
+}
+#logo a{
+    text-decoration: none;
+    color: #fff;
+}
+#logo span {
+    color: #1af5c3;
+}
+div#menuBar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+div#menuBar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3em;
+    font-family: system-ui;
+    padding: 0 10px;
+    font-weight: 500;
+}
+div#menuBar ul li a:last-child {
+    padding-right: 0px;
+}
+div#menuBar ul li a:active {
+    color: hsl(120, 100%, 50%);
+}
+div#menuBar ul li a:hover {
+    color: #fbff00;
+}
+div#menuBar ul li {
+    margin: 0px 10px;
+}
+div#menuBar ul li:last-child {
+    margin: 0px 10px;
+}
+button.btn-pry {
+    text-align: center;
+    height: 28px;
+    font-size: 21px;
+    font-family: system-ui;
+    padding: 0 10px;
+    font-weight: 500;
+    background: #fbff00;
+    color: #f00;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+section#bannar {
+    height: 50vh;
+    background: #00bcd461;
+}
+.container.bannar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.bannarLeft {
+    text-align: center;
+}
+.bannarLeft i {
+    font-size: 5em;
+    padding-bottom: 10px;
+    background: -webkit-linear-gradient(#c424b0, #33a0d5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bannarLeft p {
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 2em;
+}
+.bannarRight {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+.bannarRight i {
+    font-size: 5em;
+    padding-right: 10px;
+    background: -webkit-linear-gradient(#c424b0, #33a0d5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
